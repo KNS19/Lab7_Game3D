@@ -248,7 +248,7 @@ label_settings = SubResource("LabelSettings_igq7x")
 
 [node name="TimeLabel" type="Label" parent="UserInterface/GameUI"]
 layout_mode = 0
-offset_right = 1918.0
+offset_right = 1926.0
 offset_bottom = 133.0
 text = "0"
 label_settings = SubResource("LabelSettings_sx1u2")
