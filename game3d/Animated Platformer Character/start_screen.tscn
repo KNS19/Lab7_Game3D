@@ -13,8 +13,8 @@ outline_color = Color(0, 0, 0, 1)
 [node name="StartScreen" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 1147.0
-offset_bottom = 647.0
+offset_right = 1913.0
+offset_bottom = 1113.0
 script = ExtResource("1_4q1bc")
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -36,10 +36,10 @@ text = "Start Game"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 298.0
-offset_top = 958.0
-offset_right = 1437.0
-offset_bottom = 1083.0
+offset_left = 320.0
+offset_top = -19.0
+offset_right = 1459.0
+offset_bottom = 106.0
 text = "นายคณิศร ตรีศาสตร์ 663380255-0"
 label_settings = SubResource("LabelSettings_jyvu7")
 horizontal_alignment = 1
