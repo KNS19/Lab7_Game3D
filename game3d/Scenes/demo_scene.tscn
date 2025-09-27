@@ -70,7 +70,7 @@ font_size = 50
 font_color = Color(0.996094, 0.691406, 0.261719, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_sx1u2"]
-font_size = 50
+font_size = 80
 font_color = Color(1, 1, 1, 0.752941)
 outline_size = 4
 outline_color = Color(0, 0, 0, 1)
@@ -248,7 +248,7 @@ label_settings = SubResource("LabelSettings_igq7x")
 
 [node name="TimeLabel" type="Label" parent="UserInterface/GameUI"]
 layout_mode = 0
-offset_right = 1151.0
+offset_right = 1918.0
 offset_bottom = 133.0
 text = "0"
 label_settings = SubResource("LabelSettings_sx1u2")

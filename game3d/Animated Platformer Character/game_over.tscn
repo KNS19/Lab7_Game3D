@@ -4,12 +4,12 @@
 [ext_resource type="Texture2D" uid="uid://dgvwqq74x6d8i" path="res://Animated Platformer Character/Gemini_Generated_Image_d6eyh9d6eyh9d6ey.png" id="2_1knfe"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_gjgvn"]
-font_size = 40
+font_size = 70
 outline_size = 6
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_1knfe"]
-font_size = 40
+font_size = 70
 outline_size = 4
 outline_color = Color(0, 0, 0, 1)
 
@@ -25,15 +25,15 @@ script = ExtResource("1_gjgvn")
 [node name="TextureRect" type="TextureRect" parent="."]
 modulate = Color(1, 1, 1, 0.643137)
 layout_mode = 0
-offset_left = -4.0
-offset_top = -212.0
-offset_right = 1159.0
-offset_bottom = 951.0
+offset_left = 2.0
+offset_top = -383.0
+offset_right = 1915.0
+offset_bottom = 1530.0
 texture = ExtResource("2_1knfe")
 
 [node name="CoinsLabel" type="Label" parent="."]
 layout_mode = 0
-offset_right = 1151.0
+offset_right = 1907.0
 offset_bottom = 138.0
 theme_override_font_sizes/font_size = 40
 text = "0
@@ -45,7 +45,7 @@ horizontal_alignment = 1
 layout_mode = 0
 offset_left = 2.0
 offset_top = 105.0
-offset_right = 1149.0
+offset_right = 1905.0
 offset_bottom = 228.0
 text = "0"
 label_settings = SubResource("LabelSettings_1knfe")
@@ -53,20 +53,20 @@ horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 464.0
-offset_top = 358.0
-offset_right = 722.0
-offset_bottom = 435.0
-theme_override_font_sizes/font_size = 50
+offset_left = 737.0
+offset_top = 453.0
+offset_right = 1144.0
+offset_bottom = 571.0
+theme_override_font_sizes/font_size = 80
 text = "Play Again"
 
 [node name="Button2" type="Button" parent="."]
 layout_mode = 0
-offset_left = 555.0
-offset_top = 474.0
-offset_right = 634.0
-offset_bottom = 537.0
-theme_override_font_sizes/font_size = 40
+offset_left = 872.0
+offset_top = 713.0
+offset_right = 1022.0
+offset_bottom = 831.0
+theme_override_font_sizes/font_size = 80
 text = "Exit"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
